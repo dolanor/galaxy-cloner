@@ -2,6 +2,9 @@
 
 The stars are born, grow and die. Let's keep a copy before their death.
 
+> A sure way to get throttled by GitHub API.
+>      - Albert Einstein
+
 # Why
 
 If you're like me and star projects as a bookmark, reference, help for communication, etc, at some point, you go back in it to check how is the project going.
@@ -13,11 +16,11 @@ So I decided to have this tool to brutefork my way into the stars to be able to 
 ```
 export GALAXY_CLONER_GITHUB_TOKEN=XXX
 # Where will all the clone go (it must be a github org)
-export GALAXY_CLONER_DEST_ORG=YYY
+export GALAXY_CLONER_DEST_ORG=<your clone destination org>
 # Be careful with that setting, it can get you rate limited.
 # Without setting it, it will use runtime.NumCPU(), which can be a problem.
-export GALAXY_CLONER_PARALLEL=1
-go run main.go
+export GALAXY_CLONER_CONCURRENCY=1
+go run galaxy_cloner.go
 ```
 
 
