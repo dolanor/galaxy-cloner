@@ -1,9 +1,9 @@
-# :milkyway: Galaxy Cloner
+# 🌌 Galaxy Cloner
 
 The stars are born, grow and die. Let's keep a copy before their death.
 
-> A sure way to get throttled by GitHub API.
->      - Albert Einstein
+> A sure way to get throttled by GitHub API.  
+>     - Albert Einstein
 
 # Why
 
